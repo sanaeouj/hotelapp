@@ -1,25 +1,26 @@
 import React from 'react';
 import '../assets/styles/sass/index.scss';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as  Switch , Router, Route } from "react-router-dom";
+
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-import Navbar from '../components/Navbar';
+import CustomNavbar  from '../components/CustomNavbar';
 import Home from '../pages/Home';
 import Rooms from '../pages/Rooms';
-import SingleRoom from '../pages/VIPRoom';
+import SingleRoom from '../pages/VipRoom';
 import ErrorPage from '../pages/ErrorPage';
 
 function App(){
   return (
     <>
     <ToastContainer theme="colored" />  
-    <Navbar />   
+    <CustomNavbar />   
       <Router>
       <Switch>
-        <Route exact path="/"> <Home/>  </Route>
-        <Route exact path="/rooms/"> <Rooms/>  </Route>
-        <Route exact path="/rooms/:slug"> <VIPRoom/>  </Route>
+        <Route  path="/"> <Home/>  </Route>
+        <Route  path="/rooms/"> <Rooms/>  </Route>
+        <Route  path="/rooms/:slug"> <VipRoom/>  </Route>
         <Route> <ErrorPage/>  </Route>
       </Switch>
       </Router>
