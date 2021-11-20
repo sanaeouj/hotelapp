@@ -1,5 +1,5 @@
 export const customCard = {
-  default: {
+  defaults: {
     header: "",
     text: "",
     titre: "",

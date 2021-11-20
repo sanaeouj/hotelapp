@@ -1,21 +1,18 @@
-import React from "react";
-import Card from 'react-bootstrap/Card'
-import { customCarddefault } from "./constants";
-const index = ({ header,text, titre, children }: CustomCardProps) => {
+import React from 'react';
+import {Card, CardText, CardBody, CardTitle, CardSubtitle, CardImg} from 'reactstrap';
+import { customCard } from "./constants";
+const index = ({ text, titre, children }: CustomCardProps) => {
   return (
     <Card className="text-center">
-  <Card.Header>{header}</Card.Header>
-  <Card.Body>
-    <Card.Title>{titre}</Card.Title>
-    <Card.Text>
-      {text}
-    </Card.Text>
-    {children}
-  </Card.Body>
-  </Card>
+        <CardBody>
+        <CardTitle>{titre}</CardTitle>
+        <CardText>{text}</CardText>
+        {children}
+      </CardBody>
+    </Card>
   );
 };
 index.defaultProps = {
-  ...customCarddefault,
+  ...customCard,
 };
 export default index;

@@ -1,10 +1,10 @@
 export type URL = `${"http://" | "https://"}${string}`;
 interface CustomNavbarProps {
   background: string;
-  variant?: any;
+  variant: string;
   navHome: string;
   className: string;
   logo: URL | string;
   navLink: URL | string;
-  href: string;
+  href: any;
 }
