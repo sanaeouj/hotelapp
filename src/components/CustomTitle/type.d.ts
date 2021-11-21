@@ -1,0 +1,3 @@
+interface CoverProps {
+    title: string;
+}
