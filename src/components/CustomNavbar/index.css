@@ -1,0 +1,24 @@
+.nav-link {
+  padding-left: 50px !important;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: underline !important ;
+  color: darkgreen !important;
+}
+ 
+
+.navbar-expand {
+  border: lightgray solid 2px !important;
+  border-radius: 2px;
+  border-top: none;
+ }
+.navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0e0b09d5 !important;
+  font-size: 60px !important;
+}
+.me-auto{
+  display: flex;
+  flex-direction: row-reverse;
+  
+}

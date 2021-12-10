@@ -8,3 +8,7 @@ interface CustomNavbarProps {
   navLink: URL | string;
   href: any;
 }
+interface navLinks{
+  href:any;
+  text:string;
+}
