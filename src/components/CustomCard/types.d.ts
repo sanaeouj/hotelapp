@@ -1,5 +1,4 @@
-interface CustomCardProps {
-  titre: string;
-  text: string;
-  children?: any;
+interface CoverProps {
+  title: string;
+  text?: string
 }

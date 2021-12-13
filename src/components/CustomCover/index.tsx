@@ -1,12 +1,12 @@
 import React from "react";
 
-const CustomCover: React.FC<CoverProps> = (props): any => {
+const Cover: React.FC<CoverProps> = (props): any => {
   const { coverClass, children } = props;
   return <header className={coverClass}>{children}</header>;
 };
 
-export default CustomCover;
+export default Cover;
 
-CustomCover.defaultProps = {
-  coverClass: "defaultHero",
+Cover.defaultProps = {
+  coverClass: "defaultCustomBG",
 };

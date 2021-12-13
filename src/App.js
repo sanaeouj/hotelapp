@@ -1,4 +1,5 @@
 import React from "react";
+import "./indexx.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
@@ -10,11 +11,13 @@ function App() {
   return (
     <>
       <CustomNavbar />
+     
       <Router>
         <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path="/SingleRoom" element={<SingleRoom />} />
           <Route path="/Rooms" element={<Rooms />} />
+          <Route path="/ErrorPage" element={<ErrorPage />} />
         </Routes>
         </Router>
     </>

@@ -1,5 +1,5 @@
 import React from 'react';
-import loadingGif from "../assets/images/gif/loading-arrow.gif";
+import loadingGif from "../../utils/Images/gif/loading-arrow.gif";
 
 const index: React.FC = () => {
     return (

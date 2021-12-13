@@ -1,20 +1,17 @@
 export const IStateServices = {
   services: [
     {
-      title: "free cocktails",
-      info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Cuisine gastronomique",
+      info: "Entre grillades raffinées, barbecues sur la plage, recettes marocaines authentiques ou encore cuisine méditerranéenne.",
     },
     {
-      title: "endless hiking",
-      info: " Lorem It was popularised in the 1960s with the release of Letraset sheets containing.",
+      title: "Buffets merveilleux ",
+      info: " Au cœur du Resort ou aux bords de la piscine, nos buffets proposent les spécialités des grandes cuisines internationales.",
     },
     {
-      title: "free shuttles",
-      info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "En direct du gril ",
+      info: "Régalez-vous de bœuf Wagyu de qualité supérieure face à notre parcours de golf, d'un steak grillé à la plage ou encore d'un kebab fraîchement préparé..",
     },
-    {
-      title: "strongest beers",
-      info: "Lorem There are many variations of passages of Lorem Ipsum available, but the majority form.",
-    },
+   
   ],
 };

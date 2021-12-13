@@ -1,3 +1,5 @@
 interface CoverProps {
     coverClass?: string;
+   
+   
 }

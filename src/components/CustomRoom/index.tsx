@@ -1,5 +1,5 @@
 import React from "react";
-import defaultImg from "../assets/images/room-1.jpeg";
+import defaultImg from "../../utils/Images/room-1.jpeg";
 import { Link } from "react-router-dom";
 
 const Room: React.FC<IRoomProps> = React.memo((props) => {

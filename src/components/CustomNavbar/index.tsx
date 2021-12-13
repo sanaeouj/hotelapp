@@ -11,14 +11,16 @@ const index = () => {
             src="../"
             width="50px"
             height="50px"
-            alt=""
+            alt="Hotel Maroc"
           />
-         Hotel Maroc 
+         
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="/Home">Home</Nav.Link>
-          <Nav.Link href="/Rooms">Rooms</Nav.Link>
-          <Nav.Link href="/SingleRoom">Single Room </Nav.Link>
+        <Nav.Link href="/SingleRoom">Chambre Simple </Nav.Link>
+         <Nav.Link href="/Rooms">Chambre</Nav.Link>
+          <Nav.Link href="/Home">Accueil</Nav.Link>
+         
+      
         </Nav>
       </Container>
     </Navbar>
