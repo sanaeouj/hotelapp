@@ -1,7 +1,7 @@
 import React from 'react';
 import loadingGif from "../../utils/Images/gif/loading-arrow.gif";
 
-const index: React.FC = () => {
+export const index= () => {
     return (
     <div className="loading">
       <h4>rooms data loading....</h4>

@@ -7,12 +7,12 @@ interface IPropsRoomsFilter {
     rooms: any[];
 }
 
-// Get all unique items
+// Obtenez tous les articles uniques
 const getUnique = (items: any[], value: any) => {
     return [...new Set(items.map(item => item[value]))]
 };
 
-// Another method of using context without HOC or provider
+// Une autre méthode d’utilisation du contexte sans HOC ou fournisseur
 const RoomsFilter: React.FC<IPropsRoomsFilter> = ({rooms}) => {
 
     const context: RoomsObject | null = useContext(RoomContext);
@@ -46,8 +46,8 @@ const RoomsFilter: React.FC<IPropsRoomsFilter> = ({rooms}) => {
                         })}
                     </select>
                 </div>
-                {/* end of guest */}
-                {/* rooms price */}
+                {/* fin de l’invité */}
+                {/* prix des chambres */}
                 <div className="form-group">
                     <label htmlFor="price">
                         room price ${price}
@@ -63,7 +63,7 @@ const RoomsFilter: React.FC<IPropsRoomsFilter> = ({rooms}) => {
                         <input type="number" name="maxSize" id="size" value={maxSize} onChange={handleChange} className="size-input"/>
                     </div>
                 </div>
-                {/* end of size */}
+                {/* fin de taille */}
                 {/* extras */}
                 <div className="form-group">
                     <div className="single-extra">

@@ -5,7 +5,7 @@ interface IRoomProps {
   room: RoomObject;
 }
 
-const Room: React.FC<IRoomProps> = React.memo((props) => {
+const index: React.FC<IRoomProps> = React.memo((props) => {
   const { name, slug, images, price } = props.room;
   // console.log(props);
   return (
@@ -25,5 +25,5 @@ const Room: React.FC<IRoomProps> = React.memo((props) => {
   );
 });
 
-export default Room;
+export default index;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CustomCard: React.FC<CoverProps> = (props) => {
+export const CustomCard: React.FC<CoverProps> = (props) => {
     const { text, title, children } = props;
     return (
         <div className="banner">

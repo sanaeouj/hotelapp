@@ -16,3 +16,8 @@
     handleChange: (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement> ) => any;
     handleChecked: (event: any) => any;
 }
+interface newFunction{
+    items:any[];
+    value: any;
+
+}

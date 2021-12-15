@@ -35,7 +35,7 @@ class RoomProvider extends Component<{}, IStateContext> {
         pets: false
     }
 
-    // Get Data when component mount
+    // / Obtenir des données lors du montage des composants
     public componentDidMount() {
         let rooms = this.formatData(items);
         let featuredRooms = rooms.filter((room: any) => room.featured === true);
@@ -130,7 +130,7 @@ class RoomProvider extends Component<{}, IStateContext> {
             tempRooms = tempRooms.filter(room => room.breakfast === true);
         }
 
-        // filter by pets
+        // filter by animaux de compagnie
         if (pets) {
             tempRooms = tempRooms.filter(room => room.pets === true);
         }
@@ -146,7 +146,7 @@ const RoomConsumer = RoomContext.Consumer;
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
-// For Using Context with Functional Component (Stateless) with HOC
+//Pour l’utilisation du contexte avec un composant fonctionnel (sans état) avec HOC
 export const withRoomConsumer = <P extends {}>(Component: React.ComponentClass<P> | React.StatelessComponent<P>): React.FC<any> => props => {
     return <RoomConsumer>
             { value => <Component {...props} context={value} />}
