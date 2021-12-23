@@ -5,6 +5,7 @@ import { withRoomConsumer } from '../store/context';
 import CustomLoading from '../components/CustomLoading';
 
 
+
 interface IPropsRoomsContainer {
     context: RoomsObject
 }
@@ -15,7 +16,7 @@ const RoomsContainer: React.FC<IPropsRoomsContainer> = ({context}) => {
     const {loading, rooms, sortedRooms} = context;
     console.log("context", context);
 
-    if (loading) {
+    if (CustomLoading) {
         return <CustomLoading />
     }
     return (

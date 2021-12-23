@@ -1,3 +1,3 @@
-interface CoverProps {
+interface TitleProps {
     title: string;
 }

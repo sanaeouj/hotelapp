@@ -2,9 +2,7 @@ import React from "react";
 import defaultImg from "../../utils/Images/room-1.jpeg";
 import { Link } from "react-router-dom";
 
-const Room: React.FC<IRoomProps> = React.memo((props) => {
-  const { name, slug, images, price } = props.room;
-  // console.log(props);
+const Room =({name, slug, images, price}:RoomObject) => {
   return (
       <article className="room">
           <div className="img-container">
@@ -18,6 +16,5 @@ const Room: React.FC<IRoomProps> = React.memo((props) => {
            <p className="room-info">{name}</p>
       </article>
   )
-})
-
+};
 export default Room;

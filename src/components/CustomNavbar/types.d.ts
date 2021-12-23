@@ -12,3 +12,6 @@ interface navLinks{
   href:any;
   text:string;
 }
+interface IStateNavbar {
+  isOpen: boolean;
+}

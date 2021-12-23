@@ -3,6 +3,7 @@ interface RoomObject {
     slug: string;
     images: string[];
     price: number;
+    
   }
   interface IRoomProps {
     room: RoomObject;

@@ -7,5 +7,5 @@ const CustomBG = ({ children, customBG }: CustomBGProps) => {
 export default CustomBG;
 
 CustomBG.defaultProps = {
-  customBG: "defaultHero"
+  customBG: "defaultcustomBG",
 };

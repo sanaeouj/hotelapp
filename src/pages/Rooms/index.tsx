@@ -9,7 +9,7 @@ import ContainerRoom from "../../containers/ContainerRoom";
 const Rooms: React.FC = () => {
   return (
     <React.Fragment>
-      <CustomCover coverClass="roomsHero" title="">
+      <CustomCover coverClass="roomscustomBG" title="">
         <CustomCard title="our rooms">
           <Link to="/" className="btn-primary">
             return home

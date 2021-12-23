@@ -1,4 +1,5 @@
-interface CoverProps {
+ interface CardProps {
   title: string;
-  text?: string
+  subtitle: string;
+  children?:any;
 }

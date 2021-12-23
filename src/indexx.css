@@ -90,7 +90,7 @@ body {
   
     .Nav.Link:hover {
     color: var(--primaryColor); }
-    /* Hero */
+    /* CustomBG */
 .defaultCustomBG{
   min-height: calc(100vh - 66px);
   background: url("../src/utils/Images/defaultBcg.jpeg") center/cover no-repeat;

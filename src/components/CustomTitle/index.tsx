@@ -1,6 +1,6 @@
 import React from "react"; 
 
-export const index: React.FC<CoverProps> = ({ title }) => {
+const index = ({ title }:TitleProps) => {
   return (
     <div className="section-title">
       <h4>{title}</h4>

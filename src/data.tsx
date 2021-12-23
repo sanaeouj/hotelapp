@@ -21,7 +21,7 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
+      name: "Chambre Simple economique",
       slug: "single-economy",
       type: "single",
       price: 100,
@@ -78,7 +78,7 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
+      name: "Chambre Simple basique",
       slug: "single-basic",
       type: "single",
       price: 150,
@@ -135,7 +135,7 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
+      name: "Chambre Simple standard",
       slug: "single-standard",
       type: "single",
       price: 250,
@@ -192,7 +192,7 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
+      name: " Suite Junior",
       slug: "single-deluxe",
       type: "single",
       price: 300,
@@ -249,7 +249,7 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
+      name: "Chambre Double economique",
       slug: "double-economy",
       type: "double",
       price: 200,
@@ -306,7 +306,7 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
+      name: "Chambre Double basic",
       slug: "double-basic",
       type: "double",
       price: 250,
@@ -363,7 +363,7 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
+      name: "Chambre Double standard",
       slug: "double-standard",
       type: "double",
       price: 300,
@@ -420,7 +420,7 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
+      name: "Chambre Double de luxe",
       slug: "double-deluxe",
       type: "double",
       price: 400,
@@ -477,7 +477,7 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
+      name: "Suite Junior",
       slug: "family-economy",
       type: "family",
       price: 300,
@@ -534,7 +534,7 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
+      name: "Suite Supérieure",
       slug: "family-basic",
       type: "family",
       price: 350,
@@ -591,7 +591,7 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
+      name: "Suite standard",
       slug: "family-standard",
       type: "family",
       price: 400,
@@ -648,7 +648,7 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
+      name: "Suite de luxe",
       slug: "family-deluxe",
       type: "family",
       price: 500,
@@ -705,7 +705,7 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
+      name: "présidentiel",
       slug: "presidential-room",
       type: "presidential",
       price: 600,
